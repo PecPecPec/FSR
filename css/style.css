@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+h1{
+font-size: 30px;
+font-family: Helvetica, sans-serif;
+text-align: center;
+color: #000000;
+}
+
+h2{
+font-size: 30px;
+font-family: Helvetica, sans-serif;
+text-align: center;
+color: #000000;
+}
+
+h3{
+font-size: 20px;
+font-family: Helvetica, sans-serif;
+text-align: center;
+color: #FF8C00;
+}
+
+.flotte{
+text-align: right;
+}
+
+.header{
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  background-image: url("../img/17523554_1263492207079267_5864443503094637947_n.jpg");
+}
+
+p
+{
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+   // border: 1px solid black;
+    text-align: justify;
+    padding: 12px; /* Marge intérieure de 12px */
+}
+
+
+p2{
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+   // border: 1px solid black;
+    text-align: center;
+    padding: 12px; /* Marge intérieure de 12px */
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-family: Helvetica, sans-serif;
+   background-color: #86CEF0;
+   text-align: center;
+}
+
+body{
+background: #F0F8FF;
+}
