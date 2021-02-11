@@ -3,21 +3,32 @@
 }
 
 @font-face {
-	font-family: "swingdevilDEMO";
-	src: url('../font/swingdevilDEMO.otf');
-}
-
-@font-face {
 	font-family: "dummkopfDEMO";
 	src: url('../font/dummkopfDEMO.otf');
 }
+
+@font-face {
+	font-family: "OpenSans";
+	src: url('../font/open-sans/OpenSans-Regular.ttf');
+}
+@font-face {
+	font-family: "OpenSans";
+	font-style: italic;
+	src: url('../font/open-sans/OpenSans-Italic.ttf');
+}
+@font-face {
+	font-family: "OpenSans";
+	font-weight: bold;
+	src: url('../font/open-sans/OpenSans-Bold.ttf');
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
   padding: 10px;
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: OpenSans;
 }
 
 .column2 {
@@ -25,7 +36,7 @@
   width: 33%;
   padding: 10px;
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: OpenSans;
 }
 
 .column3 {
@@ -33,7 +44,7 @@
   width: 25%;
   padding: 10px;
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: OpenSans;
 }
 
 /* Clear floats after the columns */
@@ -60,7 +71,7 @@ color: #000000;
 
 h3{
 font-size: 20px;
-font-family: Helvetica, sans-serif;
+font-family: OpenSans;
 text-align: center;
 color: #FF8C00;
 }
@@ -81,7 +92,7 @@ text-align: right;
 p
 {
     font-size: 15px;
-    font-family: Helvetica, sans-serif;
+    font-family: OpenSans;
    // border: 1px solid black;
     text-align: justify;
     padding: 12px; /* Marge intérieure de 12px */
@@ -90,7 +101,7 @@ p
 
 p2{
     font-size: 15px;
-    font-family: Helvetica, sans-serif;
+    font-family: OpenSans;
    // border: 1px solid black;
     text-align: center;
     padding: 12px; /* Marge intérieure de 12px */
@@ -100,7 +111,7 @@ p2{
    left: 0;
    bottom: 0;
    width: 100%;
-   font-family: Helvetica, sans-serif;
+   font-family: OpenSans;
    background-color: #86CEF0;
    text-align: center;
 }
