@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "swingdevilDEMO";
+	src: url('../font/swingdevilDEMO.otf');
+}
+
+@font-face {
+	font-family: "dummkopfDEMO";
+	src: url('../font/dummkopfDEMO.otf');
+}
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -36,15 +45,15 @@
 }
 
 h1{
-font-size: 30px;
-font-family: Helvetica, sans-serif;
+font-size: 50px;
+font-family: dummkopfDEMO;
 text-align: center;
 color: #000000;
 }
 
 h2{
-font-size: 30px;
-font-family: Helvetica, sans-serif;
+font-size: 40px;
+font-family: dummkopfDEMO;
 text-align: center;
 color: #000000;
 }
