@@ -107,6 +107,12 @@ p2{
     padding: 12px; /* Marge intérieure de 12px */
 }
 
+p3{
+    font-size: 15px;
+    font-family: OpenSans;
+    padding: 2px; /* Marge intérieure de 12px */
+    float: right;
+}
 .footer {
    left: 0;
    bottom: 0;
